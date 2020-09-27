@@ -1,16 +1,16 @@
-# About
+### About
 
-Portfolio homework assignment week #2. 
+Created a portfolio with three html pages using mainly bootstrap code. Using bootstrap coding, made navbar and links fully functional and made all pages responsive.
 
 
-# Folders
-css
-img
+### Folders
+* css
+* img
 
-# Files
-contact.html
-index.html
-portfolio.html
+### Files
+* contact.html
+* nindex.html
+* portfolio.html
 
-# Bonus
+### Bonus
 Created a sticky footer

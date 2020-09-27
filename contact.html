@@ -10,15 +10,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/style.css">
-        <style>
-            body {
-                background-image: url("./img/brick.jpg");
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-            }
-        </style>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            background-image: url("./img/brick.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        p {
+            color: azure;
+        }
+    </style>
 
     <title>Contact</title>
 
@@ -48,8 +52,7 @@
         </div>
     </nav>
     <h3>Contact Form</h3>
-
-    <div class="container">
+    <div class="container-fluid">
         <form action="/action_page.php">
             <label for="fname">Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -62,16 +65,36 @@
 
             <input type="submit" value="Submit">
         </form>
+
+        <div class="container-fluid border-success mb-3" style="max-width: 14rem;">
+            <div class="card-header bg-transparent border-success">
+                <p>Contact Info</p>
+            </div>
+            <div class="card-body-fluid text-success">
+                <ul>
+                    <li>
+                        <a href="mailto: ed.ph.chan@gmail.com">
+                            <p>ed.ph.chan@gmail.com</p>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+
+
+
     </div>
     <!--bottom footer-->
     <footer>
         <h2>Made with a Mac</h2>
-        <p>
+        <h5>
             &copy; 2020 Edward Chan, Inc.
-        </p>
+        </h5>
     </footer>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
